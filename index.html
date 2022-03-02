@@ -1,77 +1,25 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <META charset="UTF-8">
-            <link rel="stylesheet" href="css/base.css">
-            <title>ウェブサンプル株式会社</title>
-
-    </head>
-    <body>
-    <div id="pagebody">
-
-        <div id="header">
-        <h1><a href="index.html"><img src="images/logo.png"alt="ウェブサンプル株式会社"></a></h1>
-        </div>
-
-        <!--メインメニュー-->
-        <ul id="menu">
-            <li><a href="index.html">ホーム</a></li>
-            <li><a href="product.html">製品紹介</a></li>
-            <li><a href="profile.html">会社概要</a></li>
-            <li><a href="contact.html">お問合せ</a></li>
-        </ul>
-        <div id="img_index">
-        <img src="images/img_index.png" alt="あしたをみつめるウェブサンプル株式会社">
-        </div>
-        
-    <div id="submenu">
-        <h2>新着情報</h2>
-        <ul>
-            <li><a href="#info0001">新商品のご案内</a></li>
-            <li><a href="#info0002">展示会への出展</a></li>
-            <li><a href="#info0003">環境への取り組み</a></li>
-        </ul>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | CandyDozer</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/GitHub.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">CandyDozer</div>
+      </div>
     </div>
-
-    <div id="info">
-        <h3 id="info0001">新商品のご案内</h3>
-        <p>
-            <img src="images/index0001.png" alt="新商品のイメージ画像"class="infoimg_index">
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-        </p>
-        <hr>
-
-        <h3 id="info0002">展示会への出展</h3>
-        <p>
-            <img src="images/index0002.png" alt="展示会への出展のイメージ画像"class="infoimg_index">
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-        </p>
-        <hr>
-
-        <h3 id="info0003">環境への取り組み</h3>
-        <p>
-            <img src="images/index0003.png" alt="環境への取り組みのイメージ画像"class="infoimg_index">
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-            あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ、あいうえおかきくけこさしすせそ。
-        </p>
-        <hr>
-    </div>
-
-        <div id="footer"><small>Copyright &copy; ウェブサンプル株式　All Rights Reserved.</small></div>
-    </div>
-    </body>
+  </body>
 </html>
